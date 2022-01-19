@@ -64,7 +64,7 @@ calculateCode (While expr1 prg) = do
      label <- get
      put (label + 1)
      inst <- calculateCode prg
-     return ([LABEL label] ++ exprToInst expr1 ++ [JUMPZ (label+1)] ++ inst ++ [JUMP label] ++ [LABEL (label+1)])
+     return ([LABEL label] ++ exprToInst expr1 ++ [JUMPZ (label+1)] ++ inst ++ [JUMP label, LABEL (label+1)])
 
 calculateCode (If expr prg1 prg2) = do
   label <- get 
