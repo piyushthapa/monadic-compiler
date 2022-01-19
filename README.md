@@ -33,4 +33,5 @@ Seqn [
 1. Use WriterT monad to generate Code 
 2. Add more Arth Operator (Mod)
 3. Add Boolean Operator (AND, OR , NOT) 
+4. Parser
 
