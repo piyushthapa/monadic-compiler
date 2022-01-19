@@ -30,7 +30,7 @@ Seqn [
 ```
 
 ### TODO
-[] use WriterT monad to generate Code 
-[] Add more Arth Operator (Mod)
-[] Add Boolean Operator (AND, OR , NOT) 
+1. Use WriterT monad to generate Code 
+2. Add more Arth Operator (Mod)
+3. Add Boolean Operator (AND, OR , NOT) 
 
